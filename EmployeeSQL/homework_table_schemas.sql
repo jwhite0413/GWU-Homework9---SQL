@@ -36,7 +36,7 @@ CREATE TABLE public.employees
     PRIMARY KEY (emp_no)
 );
 
-Drop table salaries
+-- Drop table salaries
 CREATE TABLE public.salaries
 (
     emp_no bigint,
